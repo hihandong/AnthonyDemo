@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--坐标轴线条粗细-->
+    <attr name="coordinatesLineWidth" format="dimension"/>
+    <!--坐标轴颜色-->
+    <attr name="coordinatesLineColor" format="integer|color"/>
+
+    <!--坐标轴字体大小-->
+    <attr name="coordinatesTextSize" format="dimension" />
+    <!--坐标轴字体颜色-->
+    <attr name="coordinatesTextColor" format="color" />
+
+    <!--折线颜色-->
+    <attr name="brokenLineColor" format="color" />
+    <!--折线粗细-->
+    <attr name="brokenLineWidth" format="dimension" />
+
+    <!--小圆点半径-->
+    <attr name="circleRadius" format="dimension" />
+    <!--小圆点颜色-->
+    <attr name="circleColor" format="color|integer"/>
+
+    <!--背景色-->
+    <attr name="bgColor" format="color|integer" />
+
+
+    <declare-styleable name="TableView">
+        <attr name="bgColor"/>
+
+        <attr name="coordinatesLineWidth"/>
+        <attr name="coordinatesLineColor"/>
+
+        <attr name="coordinatesTextSize"/>
+        <attr name="coordinatesTextColor"/>
+
+        <attr name="brokenLineColor"/>
+        <attr name="brokenLineWidth"/>
+
+
+        <attr name="circleColor"/>
+        <attr name="circleRadius"/>
+    </declare-styleable>
+    <declare-styleable name="ColorTrackTabLayout">
+        <attr name="text_size" format="dimension"/>
+        <attr name="origin_color" format="color|reference"/>
+        <attr name="change_color" format="color|reference"/>
+    </declare-styleable>
+</resources>

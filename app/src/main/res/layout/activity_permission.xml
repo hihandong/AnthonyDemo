@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    style="@style/LightStyle"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_location"
+        android:text="获得定位的权限"
+        android:onClick="doClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_group_calendar"
+        android:text="获得进入日历的权限"
+        android:onClick="doClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_group_storage"
+        android:text="获得读写存储卡的权限"
+        android:onClick="doClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_camera_sensors"
+        android:text="一次申请拍照、传感器的权限"
+        android:onClick="doClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
